@@ -13,4 +13,3 @@ function draw() {
 
   circle(mouseX, mouseY, 100);
 }
-}
