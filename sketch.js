@@ -3,13 +3,25 @@ function setup() {
 }
 
 function draw() {
-  background(16);
-  if (mouseIsPressed === true) {
-    fill(0);
-  } else {
-    fill(255);
-  }
+  background(135, 206, 235);
+  fill("yellow"); //yellow  
 
+  stroke("orange"); //orange outline 
 
-  circle(mouseX, mouseY, 100);
+  strokeWeight(20); //large outline 
+
+  circle(550, 50, 100);
+
+  stroke(0);//black outline
+
+  strokeWeight(1);//outline thickness
+
+  fill("green");
+
+  rect(0, 200, 600, 400);
+
+  textSize(75)
+  text("⛰", 100, 250) //flower
+  text("🐞", 300, 250)
+  text("🦄", mouseY, mouseX, 250)
 }
