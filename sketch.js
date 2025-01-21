@@ -23,5 +23,5 @@ function draw() {
   textSize(75)
   text("⛰", 100, 250) //flower
   text("🐞", 300, 250)
-  text("🦄", mouseY, mouseX, 250)
+  text("🦄", mouseX, mouseY, 250)
 }
