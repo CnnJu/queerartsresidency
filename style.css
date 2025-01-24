@@ -1,8 +1,61 @@
-html, body {
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: 'Amiamie Amiamie';
+  src: url('Amiamie-Black.woff2') format('woff2'),
+      url('Amiamie-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
-canvas {
-  display: block;
+@font-face {
+  font-family: 'Amiamie';
+  src: url('Amiamie-Regular.woff2') format('woff2'),
+      url('Amiamie-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amiamie Amiamie';
+  src: url('Amiamie-Black.woff2') format('woff2'),
+      url('Amiamie-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amiamie';
+  src: url('Amiamie-Regular.woff2') format('woff2'),
+      url('Amiamie-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #692D73;
+}
+
+h1 {
+  color: #fcea1a;
+  text-align: center;
+  font-family: 'Amiamie Amiamie';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+h2 {
+  color: #fcea1a;
+  text-align: center;
+  font-family: 'Amiamie Amiamie';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  font-family: verdana;
+  font-size: 0px;
 }
