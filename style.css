@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Amiamie Amiamie';
-  src: url('Amiamie-Black.woff2') format('woff2'),
-      url('Amiamie-Black.woff') format('woff');
+  src: url('css/Amiamie-Black.woff') format('woff2'),
+      url('css/Amiamie-Black.woff2') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Amiamie';
-  src: url('Amiamie-Regular.woff2') format('woff2'),
-      url('Amiamie-Regular.woff') format('woff');
+  src: url('css/Amiamie-Regular.woff') format('woff2'),
+      url('css/Amiamie-Regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Crozet';
-  src: url('Crozet-Regular.woff2') format('woff2'),
-      url('Crozet-Regular.woff') format('woff');
+  src: url('css/Crozet·te-Regular.woff') format('woff2'),
+      url('css/Crozet·te-Regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
