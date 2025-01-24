@@ -75,23 +75,12 @@ h5 {
   font-size: 36px;
 }
 
-p {
+p, ul {
   font-family: 'Amiamie Amiamie';
   font-weight: normal;
   font-style: normal;
   margin-left: 100px;
   margin-right: 100px;
-}
-
-ul {
-  font-family: 'Amiamie Amiamie';
-  font-weight: normal;
-  font-style: normal;
   max-width: 900px;
+  color: #fcea1a;
 }
-
-li {
-  font-family: 'Amiamie Amiamie';
-  font-weight: normal;
-  font-style: normal;
-} 
