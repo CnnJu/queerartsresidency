@@ -36,7 +36,8 @@ h1 {
   font-family: 'Crozet';
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-size: 62px;
+  margin: 0;
 }
 h2 {
   color: #fcea1a;
@@ -44,7 +45,8 @@ h2 {
   font-family: 'Crozet';
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-size: 50px;
+  margin: 0;
 }
 h3 {
   color: #fcea1a;
@@ -52,12 +54,40 @@ h3 {
   font-family: 'Crozet';
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-size: 42px;
 } 
+
+h4 {
+  color: #fcea1a;
+  text-align: center;
+  font-family: 'Crozet';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 34px;
+}
+h5 {
+  color: #fcea1a;
+  text-align: center;
+  font-family: 'Crozet';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 26px;
+}
 
 p {
   font-family: 'Amiamie Amiamie';
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
+
+ul {
+  font-family: 'Amiamie Amiamie';
+  font-weight: normal;
+  font-style: normal;
+}
+
+li {
+  font-family: 'Amiamie Amiamie';
+  font-weight: normal;
+  font-style: normal;
+} 
