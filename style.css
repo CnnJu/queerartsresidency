@@ -95,9 +95,10 @@ p, ul {
   font-family: 'Baskervvol Fondue';;
   font-weight: normal;
   font-style: normal;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-right: 100px;
   max-width: 900px;
+  font-size: 24px;
   color: #fcea1a;
   text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
   1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
