@@ -33,6 +33,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   display: flex;
+  flex-direction: column; /* Ensures vertical stacking */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -40,12 +41,10 @@ body {
   text-align: center;
 }
 
-main {
+header, main {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Stack content inside header & main */
   align-items: center;
-  justify-content: center; /* Ensures vertical centering */
-  gap: 20px; /* Controls space between headings */
   width: 100%;
 }
 
@@ -55,9 +54,14 @@ h1, h2, h3, h4, h5 {
              1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
   text-align: center;
   margin: 0;
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1 { font-family: 'Crozet'; font-size: 82px; }
+h1 { 
+  font-family: 'Crozet'; 
+  font-size: 82px; 
+}
 h2 { font-family: 'Crozet'; font-size: 70px; }
 h3 { font-family: 'Crozet'; font-size: 52px; }
 h4, h5, p, ul { font-family: 'Baskervvol Fondue'; }
@@ -73,3 +77,18 @@ p, ul {
   text-align: center;
   margin: 0 auto;
 }
+
+@media (max-width: 700px) {
+  h1 { font-size: 28px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 18px; }
+  h4 { font-size: 15px; }
+  h5 { font-size: 12px; }
+  p, ul { font-size: 10px; max-width: 90%; }
+  body {
+    background-image: url('img/mobileBG.jpg'); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+  }
+}
+
