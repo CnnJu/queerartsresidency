@@ -84,9 +84,10 @@ p, ul {
   h3 { font-size: 18px; }
   h4 { font-size: 15px; }
   h5 { font-size: 12px; }
+  h1, h2, h3, h4, h5 { font-family: 'Baskervvol Fondue'; }
   p, ul { font-size: 10px; max-width: 90%; }
   body {
-    background-image: url('img/mobileBG.jpg'); /* Replace with the actual path */
+    background-image: url('img/opencall_mobileBG.png');
     background-size: cover;
     background-position: center;
   }
