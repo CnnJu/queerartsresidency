@@ -1,119 +1,46 @@
-@font-face {
-  font-family: 'Baskervvol Base';
-  src: url('css/BBBBaskervvol-Base.woff') format('woff2'),
-      url('css/BBBBaskervvol-Base.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Baskervvol Fondue';
-  src: url('css/BBBBaskervvol-Fondue.woff') format('woff2'),
-      url('css/BBBBaskervvol-Fondue.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-
-@font-face {
-  font-family: 'Crozet';
-  src: url('css/Crozet·te-Regular.woff') format('woff2'),
-      url('css/Crozet·te-Regular.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   background-image: url('img/opencallBG.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /*background: rgb(83,109,230);
-  background: radial-gradient(circle, rgba(83,109,230,1) 0%, rgba(105,45,115,1) 52%, rgba(226,140,167,1) 91%);*/
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
   text-align: center;
-  padding-top: 100px;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* Ensures vertical centering */
+  gap: 20px; /* Controls space between headings */
+  width: 100%;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   color: #fcea1a;
   text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
              1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
   text-align: center;
-  font-family: 'Crozet';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 82px;
-  margin: 0;
-  padding-top: 120px;
-}
-h2 {
-  color: #fcea1a;
-  text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
-  1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
-  text-align: center;
-  font-family: 'Crozet';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 70px;
   margin: 0;
 }
-h3 {
-  color: #fcea1a;
-  text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
-  1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
-  text-align: center;
-  font-family: 'Crozet';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 52px;
-  margin: 0;
-} 
 
-h4 {
-  color: #fcea1a;
-  text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
-  1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
-  text-align: center;
-  font-family: 'Baskervvol Fondue';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 44px;
-}
-h5 {
-  color: #fcea1a;
-  text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
-  1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
-  text-align: center;
-  font-family: 'Baskervvol Fondue';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 36px;
-}
+h1 { font-family: 'Crozet'; font-size: 82px; }
+h2 { font-family: 'Crozet'; font-size: 70px; }
+h3 { font-family: 'Crozet'; font-size: 52px; }
+h4, h5, p, ul { font-family: 'Baskervvol Fondue'; }
+h4 { font-size: 44px; }
+h5 { font-size: 36px; }
 
 p, ul {
-  font-family: 'Baskervvol Fondue';;
-  font-weight: normal;
-  font-style: normal;
-  margin-left: 300px;
-  margin-right: 100px;
   max-width: 900px;
   font-size: 24px;
   color: #fcea1a;
   text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
   1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
+  text-align: center;
+  margin: 0 auto;
 }
