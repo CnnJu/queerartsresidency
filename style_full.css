@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Baskervvol Base';
+  src: url('css/BBBBaskervvol-Base.woff') format('woff2'),
+      url('css/BBBBaskervvol-Base.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baskervvol Fondue';
+  src: url('css/BBBBaskervvol-Fondue.woff') format('woff2'),
+      url('css/BBBBaskervvol-Fondue.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Crozet';
+  src: url('css/Crozet·te-Regular.woff') format('woff2'),
+      url('css/Crozet·te-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-image: url('img/opencallBG.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* Ensures vertical stacking */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+header, main {
+  display: flex;
+  flex-direction: column; /* Stack content inside header & main */
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #fcea1a;
+  text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
+             1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 { 
+  font-family: 'Crozet'; 
+  font-size: 82px; 
+}
+h2 { font-family: 'Crozet'; font-size: 70px; }
+h3 { font-family: 'Crozet'; font-size: 52px; }
+h4, h5, p, ul { font-family: 'Baskervvol Fondue'; }
+h4 { font-size: 44px; }
+h5 { font-size: 36px; }
+
+p, ul {
+  max-width: 900px;
+  font-size: 24px;
+  color: #fcea1a;
+  text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
+  1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  h1 { font-size: 28px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 18px; }
+  h4 { font-size: 15px; }
+  h5 { font-size: 12px; }
+  h1, h2, h3, h4, h5 { font-family: 'Baskervvol Fondue'; }
+  p, ul { font-size: 10px; max-width: 90%; }
+  body {
+    background-image: url('img/opencall_mobileBG.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
