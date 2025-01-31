@@ -99,4 +99,18 @@ a:hover {
     background-size: cover;
     background-position: center;
   }
+  p, ul {
+    font-size: 12px; /* Slightly bigger for readability */
+    max-width: 90%;  /* Ensures they don't touch the edges */
+    margin: 0 auto;  /* Centers text properly */
+    text-align: center; /* Ensures all text is centered */
+  }
+  body {
+    padding-top: 0;
+  }
+  main {
+    padding: 15px;
+    width: 95%; /* Expands to fit smaller screens */
+    max-width: 100%; /* Prevents it from being too narrow */
+  }
 }
