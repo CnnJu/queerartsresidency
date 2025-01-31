@@ -77,7 +77,15 @@ p, ul {
 
 a {
   color: #7079E6;
-  text-decoration: none;
+  text-shadow: 
+    1px 1px #fcea1a;
+
+}
+
+a:hover {
+  color: #fcea1a;
+  text-shadow: 
+    1px 1px #7079E6;
 }
 
 @media (max-width: 700px) {
