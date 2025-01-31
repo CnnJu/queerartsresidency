@@ -51,7 +51,10 @@ header, main {
 main {
   flex-grow: 1;
   padding: 20px;
+  width: 90%; /* Makes sure the background is visible */
+  max-width: 1000px; 
   background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); 
 }
 
 h1, h2, h3, h4, h5 {
