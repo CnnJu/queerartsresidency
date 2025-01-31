@@ -23,7 +23,7 @@
   font-display: swap;
 }
 body {
-  padding-top: 350px;
+  padding-top: 160px;
   min-height: 100vh;
   margin: 0;
 }
@@ -54,7 +54,7 @@ h1 {
   font-size: 60px; 
 }
 h2 { font-family: 'Crozet'; font-size: 50px; }
-h3 { font-family: 'Crozet'; font-size: 40px; margin-bottom: 200px; }
+h3 { font-family: 'Crozet'; font-size: 40px; margin-bottom: 170px; }
 h4, h5, p, ul { font-family: 'Baskervvol Fondue'; }
 h4 { font-size: 35px; }
 h5 { font-size: 25px; }
