@@ -28,10 +28,7 @@
 }
 
 body {
-  background-image: url('img/opencallBG.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: scroll;
   display: flex;
   flex-direction: column; /* Ensures vertical stacking */
   justify-content: center;
