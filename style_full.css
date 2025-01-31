@@ -67,8 +67,7 @@ p, ul {
   color: #7079E6;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 
-    3px 3px #fcea1a, /* Adds a yellow glow effect */
-    1px 1px #7079E6, -1px -1px #7079E6, 1px -1px #7079E6, -1px 1px #7079E6;
+    1px 1px #fcea1a;
 }
 
 .spacer {
@@ -77,7 +76,7 @@ p, ul {
 }
 
 a {
-  color: #fcea1a;
+  color: #7079E6;
   text-decoration: none;
 }
 
