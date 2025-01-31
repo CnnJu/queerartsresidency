@@ -66,6 +66,11 @@ p, ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.spacer {
+  height: 100px;
+  margin-top: 100px;
+}
+
 @media (max-width: 700px) {
   h1 { font-size: 28px; }
   h2 { font-size: 24px; }
