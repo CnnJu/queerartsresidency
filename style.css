@@ -48,6 +48,12 @@ header, main {
   width: 100%;
 }
 
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
 h1, h2, h3, h4, h5 {
   color: #fcea1a;
   text-shadow: 2px 0 #7079E6, -2px 0 #7079E6, 0 2px #7079E6, 0 -2px #7079E6,
