@@ -23,22 +23,16 @@
   font-display: swap;
 }
 body {
-  padding-top: 150px;
-  background-attachment: scroll;
-  display: flex;
-  flex-direction: column; /* Ensures vertical stacking */
-  justify-content: center;
-  align-items: center;
+  padding-top: 350px;
   min-height: 100vh;
   margin: 0;
 }
 
 header, main {
-  margin: auto;
-  display: flex;
-  flex-direction: column; /* Stack content inside header & main */
-  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
   line-height: 1.5;
+  text-align: left;
 }
 
 main {
@@ -52,21 +46,22 @@ h1, h2, h3, h4, h5 {
   margin: 0;
   font-weight: normal;
   font-style: normal;
+  text-align: center;
 }
 
 h1 { 
   font-family: 'Crozet'; 
-  font-size: 82px; 
+  font-size: 60px; 
 }
-h2 { font-family: 'Crozet'; font-size: 70px; }
-h3 { font-family: 'Crozet'; font-size: 52px; }
+h2 { font-family: 'Crozet'; font-size: 50px; }
+h3 { font-family: 'Crozet'; font-size: 40px; margin-bottom: 200px; }
 h4, h5, p, ul { font-family: 'Baskervvol Fondue'; }
-h4 { font-size: 44px; }
-h5 { font-size: 36px; }
+h4 { font-size: 35px; }
+h5 { font-size: 25px; }
 
 p, ul {
   max-width: 1000px;
-  font-size: 24px;
+  font-size: 18px;
   color: #7079E6;
   font-family: Arial, Helvetica, sans-serif;
 }
