@@ -6,7 +6,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Baskervvol Fondue';
   src: url('css/BBBBaskervvol-Fondue.woff') format('woff2'),
@@ -15,9 +14,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-
-
 @font-face {
   font-family: 'Crozet';
   src: url('css/Crozet·te-Regular.woff') format('woff2'),
@@ -26,10 +22,8 @@
   font-style: normal;
   font-display: swap;
 }
-header {
-  padding-top: 150px;
-}
 body {
+  padding-top: 150px;
   background-attachment: scroll;
   display: flex;
   flex-direction: column; /* Ensures vertical stacking */
@@ -40,6 +34,7 @@ body {
 }
 
 header, main {
+  margin: auto;
   display: flex;
   flex-direction: column; /* Stack content inside header & main */
   width: 100%;
