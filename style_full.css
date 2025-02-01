@@ -98,6 +98,7 @@ a:hover {
     background-image: url('img/opencall_mobileBG.png');
     background-size: cover;
     background-position: center;
+    padding-top: 80px;
   }
   p, ul {
     font-size: 12px; /* Slightly bigger for readability */
@@ -105,9 +106,7 @@ a:hover {
     margin: 0 auto;  /* Centers text properly */
     text-align: center; /* Ensures all text is centered */
   }
-  body {
-    padding-top: 80px;
-  }
+
   main {
     padding: 10px;
     width: 95%; /* Expands to fit smaller screens */
