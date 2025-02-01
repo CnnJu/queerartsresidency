@@ -89,17 +89,19 @@ a:hover {
 }
 
 @media (max-width: 700px) {
-  h1 { font-size: 28px; }
-  h2 { font-size: 24px; }
-  h4 { font-size: 15px; }
-  h1, h2, h4 { font-family: 'Baskervvol Fondue'; }
-  p, ul { font-size: 10px; max-width: 90%; }
   body {
     background-image: url('img/opencall_mobileBG.png');
     background-size: cover;
     background-position: center;
     padding-top: 80px;
   }
+  
+  h1 { font-size: 28px; }
+  h2 { font-size: 24px; }
+  h4 { font-size: 15px; }
+  h1, h2, h4 { font-family: 'Baskervvol Fondue'; }
+  p, ul { font-size: 10px; max-width: 90%; }
+
   p, ul {
     font-size: 12px; /* Slightly bigger for readability */
     max-width: 90%;  /* Ensures they don't touch the edges */
