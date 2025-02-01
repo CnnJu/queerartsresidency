@@ -106,10 +106,10 @@ a:hover {
     text-align: center; /* Ensures all text is centered */
   }
   body {
-    padding-top: 0;
+    padding-top: 80px;
   }
   main {
-    padding: 15px;
+    padding: 10px;
     width: 95%; /* Expands to fit smaller screens */
     max-width: 100%; /* Prevents it from being too narrow */
   }
