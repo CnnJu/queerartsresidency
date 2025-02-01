@@ -93,12 +93,6 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-  body {
-    background-image: url('img/opencall_mobileBG.png');
-    background-size: cover;
-    background-position: center;
-    padding-top: 80px;
-  }
 
   h1 { font-size: 28px; }
   h2 { font-size: 24px; }
