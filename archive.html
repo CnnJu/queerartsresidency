@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QRH — archive</title>
-  <link rel="stylesheet" type="text/css" href="style_full.css">
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heima Queer Residency Archive</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <h1>Heima Queer Residency Archive</h1>
+        <p>Seyðisfjörður, Iceland · Artist & Activist Residency · 2022–2024</p>
     </header>
+
+    <nav>
+        <div class="filters">
+            <div class="filter-group">
+                <label>Year:</label>
+                <button class="year-filter active" data-year="all">All Years</button>
+                <button class="year-filter" data-year="2024">2024</button>
+                <button class="year-filter" data-year="2023">2023</button>
+                <button class="year-filter" data-year="2022">2022</button>
+            </div>
+            
+            <div class="filter-group">
+                <label>Medium:</label>
+                <button class="medium-filter active" data-medium="all">All Media</button>
+                <div id="medium-buttons"></div>
+            </div>
+
+            <div class="filter-group">
+                <label>Artist:</label>
+                <select id="artist-select">
+                    <option value="all">All Artists</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="stats" id="stats"></div>
+        <div id="content">
+            <div class="loading">Loading archive...</div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
-<script src="scan-archive.js"></script>
 </html>
