@@ -61,6 +61,14 @@ function populateFilters() {
     // Get unique media types
     const mediaTypes = [...new Set(allMedia.map(item => item.medium))].sort();
     
+    // Add event listener to "All Media" button
+    document.querySelector('.medium-filter[data-medium="all"]').addEventListener('click', (e) => {
+        document.querySelectorAll('.medium-filter').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        currentFilters.medium = 'all';
+        renderMedia();
+    });
+    
     // Create medium filter buttons
     const mediumContainer = document.getElementById('medium-buttons');
     mediaTypes.forEach(medium => {
