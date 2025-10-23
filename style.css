@@ -51,11 +51,21 @@ main {
   padding: 0;          /* Remove default ul padding */
   align-items: center; /* Vertically center items */
   justify-content: flex-start; /* Align row start (use center to center) */
+  max-width: none;     /* Override the 1000px from p, ul below */
+  font-size: inherit;  /* Don't inherit the 18px from p, ul */
+  color: inherit;      /* Don't inherit the blue color */
+  text-shadow: none;   /* Remove the yellow text shadow */
 }
 
 .mainnav ul li {
   margin: 0;
   padding: 0;
+}
+
+.mainnav a {
+  /* This ensures your links keep their own styling */
+  display: block;
+  padding: 0.5rem 1rem; /* Optional: adds clickable area */
 }
 
 h1, h2, h4 {
