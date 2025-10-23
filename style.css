@@ -44,9 +44,18 @@ main {
 }
 
 .mainnav ul {
-    list-style: none;  /* Removes the dots */
-    display: flex;     /* Puts items in a row */
-    gap: 1rem;         /* Space between items */
+  list-style: none;    /* Removes the dots */
+  display: flex;       /* Puts items in a row */
+  gap: 1rem;           /* Space between items */
+  margin: 0;           /* Remove default ul margins */
+  padding: 0;          /* Remove default ul padding */
+  align-items: center; /* Vertically center items */
+  justify-content: flex-start; /* Align row start (use center to center) */
+}
+
+.mainnav ul li {
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h4 {
