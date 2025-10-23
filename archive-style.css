@@ -16,6 +16,12 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
+.mainnav ul {
+    list-style: none;  /* Removes the dots */
+    display: flex;     /* Puts items in a row */
+    gap: 1rem;         /* Space between items */
+}
+
 h1 {
     margin-bottom: 0.5rem;
 }
