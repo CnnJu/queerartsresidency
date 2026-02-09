@@ -69,10 +69,8 @@ h4 {
 p, ul {
   max-width: 1000px;
   font-size: 18px;
-  color: #ff8551;
+  color: #eabdaa;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 
-    1px 1px #f846da;
 }
 
 .spacer {
@@ -81,7 +79,8 @@ p, ul {
 }
 
 a {
-  color: #ff8551;
+  color: #eabdaa;
+;
   text-shadow: 
     1px 1px #f846da;
 
