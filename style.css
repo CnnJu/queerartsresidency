@@ -45,10 +45,10 @@ main {
 
 
 h1, h2, h4 {
-  color: #f362db;
+  color: #ff27db;
   text-shadow:        
-      2px 0 #f31616, -2px 0 #f31616, 0 2px #f31616, 0 -2px #f31616,
-      1px 1px #f31616, -1px -1px #f31616, 1px -1px #f31616, -1px 1px #f31616;
+      2px 0 #ff5151, -2px 0 #ff5151, 0 2px #ff5151, 0 -2px #ff5151,
+      1px 1px #ff5151, -1px -1px #ff5151, 1px -1px #ff5151, -1px 1px #ff5151;
   margin: 0;
   font-weight: normal;
   font-style: normal;
@@ -69,10 +69,10 @@ h4 {
 p, ul {
   max-width: 1000px;
   font-size: 18px;
-  color: #f31616;
+  color: #ff5151;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 
-    1px 1px #f362db;
+    1px 1px #ff27db;
 }
 
 .spacer {
@@ -81,16 +81,16 @@ p, ul {
 }
 
 a {
-  color: #f31616;
+  color: #ff5151;
   text-shadow: 
-    1px 1px #f362db;
+    1px 1px #ff27db;
 
 }
 
 a:hover {
-  color: #f362db;
+  color: #ff27db;
   text-shadow: 
-    1px 1px #f31616;
+    1px 1px #ff5151;
 }
 
 .navbar header ul {
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .navbar header ul li a:hover {
-  background-color: #f31616;
+  background-color: #ff5151;
 }
 
 .navbar-row {
