@@ -45,7 +45,7 @@ main {
 
 
 h1, h2, h4 {
-  color: #ff27db;
+  color: #f869e0;
   text-shadow:        
       2px 0 #ff5151, -2px 0 #ff5151, 0 2px #ff5151, 0 -2px #ff5151,
       1px 1px #ff5151, -1px -1px #ff5151, 1px -1px #ff5151, -1px 1px #ff5151;
@@ -72,7 +72,7 @@ p, ul {
   color: #ff5151;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 
-    1px 1px #ff27db;
+    1px 1px #f869e0;
 }
 
 .spacer {
@@ -83,12 +83,12 @@ p, ul {
 a {
   color: #ff5151;
   text-shadow: 
-    1px 1px #ff27db;
+    1px 1px #f869e0;
 
 }
 
 a:hover {
-  color: #ff27db;
+  color: #f869e0;
   text-shadow: 
     1px 1px #ff5151;
 }
