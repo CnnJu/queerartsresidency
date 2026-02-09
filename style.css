@@ -71,6 +71,7 @@ p, ul {
   font-size: 18px;
   color: #fb4e04;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: #f846da 1px 1px, #f846da -1px -1px, #f846da -1px 1px, #f846da 1px -1px;
 }
 
 .spacer {
