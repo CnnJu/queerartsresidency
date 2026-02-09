@@ -26,7 +26,7 @@ body {
   padding-top: 200px;
   min-height: 100vh;
   margin: 0;
-  background-image: url('img/2025_longerwebsitebg.png'); 
+  background-image: url('img/longwebsite-2026.jpg'); 
   background-size: 100% 100%; 
   background-repeat: no-repeat; 
   background-position: top;
@@ -120,6 +120,9 @@ a:hover {
 
 @media (max-width: 900px) {
 
+  body {
+    background-image: url(img/mobilewebsite-2026.jpg);
+  }
   h1 { font-size: 28px; }
   h2 { font-size: 24px; }
   h4 { font-size: 15px; }
